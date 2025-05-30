@@ -1,8 +1,11 @@
 
 export default function Home(){
   return(
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className=" text-4xl font-bold text-center">Bem-vindo ao meu blog!</h1>
-    </main>
+    <section>
+        <h2 className=" text-xl font-semibold text-center mb-4">Bem-vindo ao meu blog!</h2>
+        <p className=" text-gray-700 text-center">
+          Espaço para compartilhar minhas anotações e aprendizados sobre ciência de dados, programação e outros assuntos que gosto!
+        </p>
+    </section>
   )
 }
