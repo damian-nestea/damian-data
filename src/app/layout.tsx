@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pt-BR">
       <body className=" p-4 sm:p-6 max-w-3xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-600">
             Damiandev Blog
           </h1>
           <nav className="mt-4 flex gap-4 text-sm">
